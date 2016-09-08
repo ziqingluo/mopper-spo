@@ -8,7 +8,9 @@ MPICH2.
    a) Go to the solver directory
    b) make
 
-3) Install ISP+MOPPER 
+3) automake --add-missing
+
+4) Install ISP+MOPPER 
 ./configure --prefix="Some Directory" --disable-gui --enable-optional-ample-set-fix --with-mpi-inc-dir=<path to mpi.h file>
 make
 make install
